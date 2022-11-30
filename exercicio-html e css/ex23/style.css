@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+h1 {
+    background-color: #00ffff;
+    height: 300px;
+    width: 300px;
+
+    border: 10px solid blueviolet;
+
+    padding: 10px 10px 10px 10px;
+
+    margin: 20px auto 40px auto;
+
+    outline: 5px dashed red;
+}
+
+a {
+    display: block;
+
+    background-color: #00ffff;
+    
+    border: 5px solid blueviolet;
+
+    padding: 10px 10px 10px 10px;
+   
+}

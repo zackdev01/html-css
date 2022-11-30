@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplismente aumente ou diminua o tamanho do seu navegador</p>
+
+    <picture>
+     <source media="(Max-width: 750px)" srcset="imagens/imgP.png" type="image/png">
+    <source media="(Max-width: 1050px)" srcset="imagens/imgM.png" type="image/png">
+    <img src="imagens/imgG.png" alt="imagem flexivel">
+    </picture> 
+    <h1>Reproduzindo áudio</h1> 
+    <p>vamos reproduzir áudio em html5</p>
+    <audio src="midiaaudio/Metro - Yung Logos.mp3" controls autoplay> </audio>
+    <video width="300" poster="imagens/jungle.jpg" controls>
+        <sourse src="midiavideo/file.mp4" type="video/mp4"></sourse>
+        <source src="midiavideo/videomkv.mkv" type="video/mkv"></source>
+    </video>
+</body>
+</html>
